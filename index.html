@@ -4,10 +4,126 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Augusto Espin</title>
+    
 </head>
 <body>
-  <h1> Augusto Espin </h1>
-  <h3> Personal website </h3>
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <div class="container">
+      <a href="index.html" class="navbar-brand mb-0 h1">Augusto Espin</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="#research" class="nav-link">Research</a>
+          </li>
+          <li class="nav-item">
+            <a href="media/CV_AEspin_May_2022.pdf" class="nav-link">Curriculum Vitae</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- content -->
+  <section class="p-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-4 text-center">
+          <img class="img-fluid rounded" src="images/aet.jpg" width="200px" alt="Augusto Espin">
+        </div>
+        
+        <div class="col text-center text-lg-left">
+          <h2 id="about">Welcome</h2>
+          <p class = "fw-light" align="justify">I am a PhD candidate in the Resource Economics Department at the University of Massachusetts, Amherst. I hold a M.S. in Resource Economics from the University of Massachusetts, Amherst, a M.S. in Telecommunications Management from Oklahoma State University and a B.S. in Electronics Engineering from ESPE, Ecuador. Additionally, I obtained a certification in Statistical and Computational Data Science in the College of Information and Computer Science at the University of Massachusetts, Amherst. My research interests are in industrial organization, applied microeconomics, technology innovation, econometrics and applied machine learning.</p>
+          <a class="btn btn-outline-secondary" href="media/digital_divide_in_the_US.pdf" role="button">
+            Download Job market paper
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+    
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <p class="text-center fs-5 mb-0">PhD Candidate</p>
+          <p class="text-center fs-6 mt-0">Expected graduation: Fall 2022</p>
+          <p class="text-center mt-0"><b>E-mail:</b> <a href="mailto:aespin@umass.edu">aespin@umass.edu</a></p>
+        </div>
+        <div class="col">
+          <h2 align="center" id="research">Research</h2>
+          <div class="accordion accordion-flush fw-light" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Augusto Espin, "Bridging the Digital Divide in the US", Job market paper  
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body p-4 fs-6">
+                  <p align="justify">
+                  The internet plays a vital role in everyday life across the world. The US, however, has seen a slowdown in broadband household adoption since 2010, creating a gap between connected and unconnected households usually known as the "digital divide". While prior studies have documented how the digital divide is related to income, demographics and geographic location, this paper takes a different approach and focuses on the mechanisms that could help bridge this digital gap. To this end, we use a two-stage approach. First, we construct a comprehensive and detailed dataset on household internet usage and prices to estimate broadband demand. In a second step, we employ the estimated income-dependent demand elasticities to assess multiple counterfactuals aimed at evaluating a number of public policy initiatives, including those recently approved in the Biden Infrastructure Act. We contrast the effectiveness of the policies on three metrics: a) policy costs, b) reduction of the digital divide, and c) and consumer surplus increase. We find that affordability policies (i.e. subsidies) can have a larger impact on decreasing the gap as well as on increasing consumer surplus vis-à-vis infrastructure deployment policies (i.e. increased coverage or bandwidth).
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Augusto Espin and Christian Rojas, "The Impact of the COVID-19 Pandemic on the Use of Remote Meeting Technologies", Economics Bulletin, Vol. 41 No. 3 pp. 1553-1565 
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <p align="justify">
+                  We evaluate the impact of the COVID-19 pandemic on the volume and quality of firms' daily usage of remote (video) meeting technologies. While per-firm daily meeting volume (minutes, number of meetings, and total participants) increase significantly (between 15% and 48%), the average meeting is more crowded (+15%), shorter (-30%, or 10 minutes) and of significantly poorer (video/audio) quality (-59%). Firms in the service sector experience the most notable increases in volume usage, while effects on the duration, size and quality of meetings is experienced by firms in all industries.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Augusto Espin and Christoph Bauner, "Do subscribers of mobile networks care about Network Neutrality?", Working Paper
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <p align="justify">
+                  The network neutrality debate has brought different points of view in the telecommunications industry. However, there is not much empirical economic research in this subject. Previous research has shown that Internet Service Providers (ISPs) are applying policies to slowdown the traffic from some content providers (CPs). We used throughput levels measured in US's mobile ISPs with market and coverage data at State level to explore if their subscribers are sensible to such practices. We did not find evidence that users subject to this discriminatory behavior are sensible to them.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     
+    </div>
+  </section>
+
+<!-- other sections -->
+  <section>
+    <div class="container">
+      <p>
+
+        
+      </p>
+    </div>
+  </section>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>
